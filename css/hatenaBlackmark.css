@@ -287,6 +287,54 @@
         background-color: #333 !important;
     }
 
+    span#tag-trigger {
+        color: #ccc !important;
+    }
+
+    #tag-panel {
+        background-color: #333 !important;
+    }
+
+    #tag-panel dt {
+        color: #ccc !important;
+    }
+
+    dd#all-tags span.tag:hover, dd#recommend-tags span.tag:hover {
+        color: #ccc !important;
+        background-color: #555 !important;
+    }
+
+    dd#all-tags span.tag::before, dd#recommend-tags span.tag::before {
+        border-right-color: #555 !important;
+    }
+
+    dd#all-tags span.tag:hover:before, dd#recommend-tags span.tag:hover:before {
+        border-right-color: #444 !important;
+    }
+
+    dd#all-tags span.tag::after, dd#recommend-tags span.tag::after {
+        border: 2px solid #555 !important;
+    }
+
+    dd#all-tags span.tag:hover:after, dd#recommend-tags span.tag:hover:after {
+        border: 2px solid #444 !important;
+    }
+
+    dd#all-tags span.tag, dd#recommend-tags span.tag {
+        color: #ccc !important;
+        background-color: #555 !important;
+    }
+
+    dd#all-tags span.tag:hover, dd#recommend-tags span.tag:hover {
+        cursor: pointer;
+        color: #ccc !important;
+        background-color: #444 !important;
+    }
+
+    #all-tags .tag, #recommend-tags .tag {
+        border: 1px solid #333 !important;
+    }
+
     ul.breadcrumb {
         color: #b0b0b0 !important;
     }
