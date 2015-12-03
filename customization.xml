@@ -14,6 +14,13 @@
       <path value="group.Import Test Results" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="ImportTests" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Run" />
+      <path value="group.Import Test Results" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="Github.Create.Pull.Request" is_action="true" action_type="1" position="22">
       <path value="root" />
       <path value="Main Toolbar" />
