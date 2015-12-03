@@ -2,6 +2,8 @@
 
 はてなブックマークを黒背景にします。
 
+<img class="lb-image" src="https://userstyles.org/style_screenshots/121364_after.png?r=1449052029" style="max-width: 400px;">
+
 ## インストール
 
 ### Chrome
