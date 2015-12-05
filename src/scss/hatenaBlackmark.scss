@@ -1,7 +1,7 @@
 @-moz-document regexp("^https?://b.hatena.ne.jp.*$") {
 
   /*-------------------------------------------------------------
-   * Hatena Blackmark v1.1.0 (12/04/2015)
+   * Hatena Blackmark v1.1.0 (12/05/2015)
    * Author: Keisuke KATO
    * GitHub: https://github.com/k--kato/hatenaBlackmark
    * Twitter: https://twitter.com/k_kato
@@ -120,7 +120,7 @@
   }
 
   li.entry-unit ul.users {
-    border-bottom: 1px solid #555 !important;
+    border-bottom: none !important;
   }
 
   ul.entry-vertical-4 div.entry-contents {
@@ -681,11 +681,11 @@
     background: #555 !important;
   }
 
-  h2 {
+  .panel-container h2 {
     background: #333 !important;
   }
 
-  h2 span {
+  .panel-container h2 span {
     color: #ccc !important;
     background: #333 !important;
   }
@@ -901,6 +901,23 @@
 
   div#header-space div.social-button-unit div.button-wrapper ul li a.count::after {
     border-color: transparent #333 transparent transparent !important;
+  }
+
+  /*-------------------------------------------------------------
+   * Violation Page
+   *-----------------------------------------------------------*/
+  div.curvebox-lb-body, div.curvebox-color-body, div.curvebox-gray-body, div.curvebox-body {
+    border-right: 1px solid #333 !important;
+    border-left: 1px solid #333 !important;
+    background-color: #444 !important;
+  }
+
+  div#footer .wrapper-container-inner .line {
+    background-color: #333 !important;
+  }
+
+  #footer div.copyright {
+    background-color: #444 !important;
   }
   
   /*-------------------------------------------------------------
