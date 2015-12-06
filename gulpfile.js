@@ -6,6 +6,8 @@ const csswring = require('csswring');
 const sourcemaps = require('gulp-sourcemaps');
 const stylelint = require('stylelint');
 const reporter = require('postcss-reporter');
+const cssnext = require('cssnext');
+const precss = require('precss');
 
 const css_dir = [
     './src/css/**/*.css'
@@ -14,9 +16,11 @@ const css_dir = [
 // PostCSS
 gulp.task('css', function () {
     const processors = [
-        stylelint({/* your options */})
+        stylelint()
         , reporter({clearMessages: true})
-        , autoprefixer({browsers: ['last 1 version']})
+        , autoprefixer({browsers: ['last 2 version']})
+        , cssnext
+        , precss
         , mqpacker
         , csswring
     ];

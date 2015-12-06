@@ -1,7 +1,7 @@
 @-moz-document regexp("^https?://b.hatena.ne.jp.*$") {
 
   /*-------------------------------------------------------------
-   * Hatena Blackmark v1.1.0 (12/05/2015)
+   * Hatena Blackmark v1.1.0 (12/06/2015)
    * Author: Keisuke KATO
    * GitHub: https://github.com/k--kato/hatenaBlackmark
    * Twitter: https://twitter.com/k_kato
@@ -298,56 +298,97 @@
   /*-------------------------------------------------------------
    * User Page
    *-----------------------------------------------------------*/
-  #hatena-bookmark-user div.breadcrumbs {
+  #hatena-bookmark-user div.breadcrumbs,
+  #hatena-bookmark-user-add div.breadcrumbs {
     background-color: #333333 !important;
   }
 
-  #hatena-bookmark-user #user-header {
+  #hatena-bookmark-user #user-header,
+  #hatena-bookmark-user-add #user-header {
     color: #CCCCCC !important;
     background: #444444 !important;
   }
 
-  #hatena-bookmark-user div.main {
+  #hatena-bookmark-user div.main,
+  #hatena-bookmark-user-add div.main {
     background: #222222 !important;
   }
 
-  #hatena-bookmark-user div.curvebox-lb-bottom, div.curvebox-lb-header, div.curvebox-color-bottom, div.curvebox-color-header, div.curvebox-gray-bottom, div.curvebox-gray-header, div.curvebox-bottom, div.curvebox-header {
+  #hatena-bookmark-user div.curvebox-lb-bottom,
+  #hatena-bookmark-user div.curvebox-lb-header,
+  #hatena-bookmark-user div.curvebox-color-bottom,
+  #hatena-bookmark-user div.curvebox-color-header,
+  #hatena-bookmark-user div.curvebox-gray-bottom,
+  #hatena-bookmark-user div.curvebox-gray-header,
+  #hatena-bookmark-user div.curvebox-bottom,
+  #hatena-bookmark-user div.curvebox-header,
+  #hatena-bookmark-user-add div.curvebox-lb-bottom,
+  #hatena-bookmark-user-add div.curvebox-lb-header,
+  #hatena-bookmark-user-add div.curvebox-color-bottom,
+  #hatena-bookmark-user-add div.curvebox-color-header,
+  #hatena-bookmark-user-add div.curvebox-gray-bottom,
+  #hatena-bookmark-user-add div.curvebox-gray-header,
+  #hatena-bookmark-user-add div.curvebox-bottom,
+  #hatena-bookmark-user-add div.curvebox-header {
     background: none !important;
   }
 
-  #hatena-bookmark-user div.curvebox-lb-bottom div, div.curvebox-lb-header div, div.curvebox-color-bottom div, div.curvebox-color-header div, div.curvebox-gray-bottom div, div.curvebox-gray-header div, div.curvebox-bottom div, div.curvebox-header div {
+  #hatena-bookmark-user div.curvebox-lb-bottom div,
+  #hatena-bookmark-user div.curvebox-lb-header div,
+  #hatena-bookmark-user div.curvebox-color-bottom div,
+  #hatena-bookmark-user div.curvebox-color-header div,
+  #hatena-bookmark-user div.curvebox-gray-bottom div,
+  #hatena-bookmark-user div.curvebox-gray-header div,
+  #hatena-bookmark-user div.curvebox-bottom div,
+  #hatena-bookmark-user div.curvebox-header div,
+  #hatena-bookmark-user-add div.curvebox-lb-bottom div,
+  #hatena-bookmark-user-add div.curvebox-lb-header div,
+  #hatena-bookmark-user-add div.curvebox-color-bottom div,
+  #hatena-bookmark-user-add div.curvebox-color-header div,
+  #hatena-bookmark-user-add div.curvebox-gray-bottom div,
+  #hatena-bookmark-user-add div.curvebox-gray-header div,
+  #hatena-bookmark-user-add div.curvebox-bottom div,
+  #hatena-bookmark-user-add div.curvebox-header div {
     background: none !important;
   }
 
-  #hatena-bookmark-user ul.menu li.current-menu {
+  #hatena-bookmark-user ul.menu li.current-menu,
+  #hatena-bookmark-user-add ul.menu li.current-menu {
     border-bottom: 1px solid #555555 !important;
   }
 
-  #hatena-bookmark-user #hatena-body {
+  #hatena-bookmark-user #hatena-body,
+  #hatena-bookmark-user-add #hatena-body {
     border-top: 1px solid #555555 !important;
   }
 
-  #hatena-bookmark-user #user-header ul.menu li {
+  #hatena-bookmark-user #user-header ul.menu li,
+  #hatena-bookmark-user-add #user-header ul.menu li {
     background: #555555 !important;
   }
 
-  #hatena-bookmark-user #user-header ul.menu li a {
+  #hatena-bookmark-user #user-header ul.menu li a,
+  #hatena-bookmark-user-add #user-header ul.menu li a {
     background: #555555 !important;
   }
 
-  #hatena-bookmark-user #hatena-body ul.threshold li.selected {
+  #hatena-bookmark-user #hatena-body ul.threshold li.selected,
+  #hatena-bookmark-user-add #hatena-body ul.threshold li.selected {
     background: #555555 !important;
   }
 
-  #hatena-bookmark-user #hatena-body ul.threshold li.selected a {
+  #hatena-bookmark-user #hatena-body ul.threshold li.selected a,
+  #hatena-bookmark-user-add #hatena-body ul.threshold li.selected a {
     background: #555555 !important;
   }
 
-  #hatena-bookmark-user div.sidebar div.hatena-module-title {
+  #hatena-bookmark-user div.sidebar div.hatena-module-title,
+  #hatena-bookmark-user-add div.sidebar div.hatena-module-title {
     background: none !important;
   }
 
-  #hatena-bookmark-user div.sidebar div.hatena-module-body {
+  #hatena-bookmark-user div.sidebar div.hatena-module-body,
+  #hatena-bookmark-user-add div.sidebar div.hatena-module-body {
     border: 1px solid #333333 !important;
     background: #555555 !important;
   }
@@ -355,6 +396,23 @@
   #header #searchtext {
     color: #CCCCCC !important;
     background: #222222 !important;
+  }
+
+  #hatena-bookmark-user .text-color,
+  #bookmarked_user li ul.comment li span.timestamp,
+  #user-header, #hatena-body,
+  #hatena-body #bookmarked_user li ul.comment li,
+  #hatena-bookmark-user ul.menu li.current-menu a:link,
+  #hatena-bookmark-user ul.menu li.current-menu a:visited,
+  #hatena-bookmark-user ul.menu li.current-menu a:hover,
+  #hatena-body a.domain,
+  #hatena-body a.category-link,
+  #hatena-body a.category-link:visited {
+    color: #CCCCCC !important;
+  }
+
+  #hatena-bookmark-user span.twitter span.click-count {
+    background: none !important;
   }
 
   /*-------------------------------------------------------------
